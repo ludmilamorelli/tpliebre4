@@ -1,0 +1,122 @@
+
+/* main */
+.home{
+    background-color:#ebebeb;
+}
+.home main{
+    width: 90%;
+   margin: auto;
+}
+.home main h2{
+     font-size:24px;
+     color:#666 ;
+     padding: 15px 0px;
+}
+.home main h4{
+    font-size:16px;
+}
+.home .banner{
+    display: none;
+}
+.home .precio-desc {
+    display: flex;
+    flex-wrap: wrap;
+}
+.home .precio{
+    font-size:16px;
+    width: 30%;
+}
+.home .descuento{
+    font-size:12px;
+    width:  70%;
+    color: #39b54a;
+}
+.home .product{
+    background-color: white;
+    margin: 5px ;
+   box-sizing: content-box;
+   display: block;
+   padding: 10px;
+   margin-right: 30px;
+box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+.home .camion {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    background-color: #fff;
+   position: relative;
+  right: -180px ;
+  top: -30px;
+}
+.home .caja{
+    border:#ebebeb 1px solid ;
+    padding: 15px;
+}
+.home .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.home .product h3 {
+    width: 30%;
+}
+.home .descuento {
+    color: #39b54a;
+    width: 70%;
+    text-align: center;
+}
+
+
+ /* adaptativo */
+
+@media (max-width:360px){
+.home .product h4{
+        display: none;
+    }
+.home .product {
+        width: 100%;
+    }
+}
+
+/* tablet */
+@media (min-width:361px) {
+
+.home .banner{
+    display: block;
+}
+.home main section article {
+        box-shadow: 0 0 10px rgb(15, 14, 14);
+        width:40% ;
+}
+.home .container{
+        display: flex; 
+        flex-wrap: wrap;
+} 
+.home .product{
+       width: 40%;
+}
+.home .camion{
+      right: -130px;
+}
+}
+
+/* laptop */
+
+@media (min-width:769px){
+
+.home .container{
+        display: flex; 
+        flex-wrap: nowrap;
+} 
+
+.home .camion{
+   right: -120;
+}
+
+}

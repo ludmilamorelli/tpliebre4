@@ -1,0 +1,131 @@
+
+/* header */
+header {
+    position: static;
+    background-color: #EAC926;
+    font-size: 12px;
+    width: 100%;
+}
+header .logo-barrabusqueda-compra{
+    display: flex;
+    flex-wrap: wrap;
+}
+header .logo{
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #03264C;;
+    width: 40%;
+}
+header .barra-busqueda{
+    margin-top: 30px;
+    width: 40%;
+    display: flex;
+    
+}
+header .nav-search-input{
+    padding: 1px;
+   margin-left: 10px;
+    width: 120px;
+    height:30px;
+    font-size: 12px;
+    border: solid 1px #fff;
+    border-radius: 5px 0px 0px 5px;}
+header .boton i{
+    position: relative;
+    background-color: white;
+    border: solid #fff 1px;
+    padding: 4px;
+    color: grey;
+    height: 30px;
+    font-size: 15px;
+}
+header .compra{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+header .hand {
+    position: relative;
+    color: #000;
+    flex-basis: content;
+}
+header .facilidades {
+   position: relative;
+   font-weight: bold;
+   flex-basis: content;
+}
+header nav{
+    padding-bottom: 15px;
+}
+header .burger-menu {
+        display: inline-block;
+        line-height: 10px;
+        background-color: #1259c3;
+        color: hsl(0, 0%, 100%);
+        padding: 8px;
+        border: #1259c3 1px solid ;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-bottom:25px;
+        font-size: 15px;
+        margin-left: 140px;
+}
+@media (max-width:360px){
+    header nav{
+        display: none;
+    }
+}
+@media (min-width:361px) {
+    header .logo-barrabusqueda-compra{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+           
+    header .nav-search-input{
+        margin-top: 25px;
+        width: 140px;
+    }
+    header .boton i{
+         margin-top: 25px;
+    }
+    header .compra{
+        margin-top:60px ;
+        margin-left: 10px;
+        width: auto;
+    }
+    header .barra-busqueda{
+        width: auto;
+    }
+    header .logo{
+        width: auto;
+    }
+    header .nav-left{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    header .nav-left ul{
+        display: flex;
+    }
+    header .nav-left ul li{
+        padding-left: 20px;
+        margin-top: 45px;
+    }
+    header .nav-left ul li a {
+        font-weight: bold;
+    }
+    header .derecha {
+        margin-left: auto;
+        padding-right: 15px;}
+    header .burger-menu {
+        display: none;
+    }
+}
+@media (min-width:769px){
+    header .barra-busqueda{
+        margin-top: 35px;
+    }
+    header .nav-search-input{
+        width: 250px;
+    }
+
+}

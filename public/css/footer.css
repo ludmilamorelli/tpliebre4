@@ -1,0 +1,33 @@
+/* footer */
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin:2px;
+    background-color: white;
+}
+footer section i{
+    color: #1259c3;
+    font-size: 2em;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+footer section h3{
+    color:  #666;
+}
+footer p{
+    color:  #666;
+}
+footer p.copyright{
+    margin-top: 30px;
+    padding-left: 15px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+/*movil*/
+@media (min-width:361px) {
+
+}
+/*table*/
+@media (min-width:769px){
+
+}
