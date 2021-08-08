@@ -1,5 +1,5 @@
 
-/* main */
+
 .home{
     background-color:#ebebeb;
 }
@@ -73,7 +73,6 @@ box-shadow: 0px 0px 10px rgb(100,100,100);
 }
 
 
- /* adaptativo */
 
 @media (max-width:360px){
 .home .product h4{
@@ -84,7 +83,7 @@ box-shadow: 0px 0px 10px rgb(100,100,100);
     }
 }
 
-/* tablet */
+
 @media (min-width:361px) {
 
 .home .banner{
@@ -106,7 +105,7 @@ box-shadow: 0px 0px 10px rgb(100,100,100);
 }
 }
 
-/* laptop */
+
 
 @media (min-width:769px){
 
